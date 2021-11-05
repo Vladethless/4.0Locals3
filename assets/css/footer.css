@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500;600;700;800&family=Nunito:wght@300;400;600;700;800&display=swap");
+.footer-widget-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/*---------------------------------
+        Footer CSS 
+-----------------------------------*/
+.footer-bg-1 {
+  background-image: url(../img/footer/footer-bg-1.jpg);
+}
+
+.footer-wrap .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0;
+}
+
+.footer-wrap .footer-bottom .copyright {
+  text-align: center;
+  padding: 0 15px;
+}
+
+.footer-wrap .footer-bottom .copyright p {
+  color: #fff;
+  margin: 0;
+}
+
+.footer-wrap .footer-bottom .copyright p a {
+  color: #D80758;
+  font-weight: 600;
+}
+
+.footer-widget-wrap .footer-widget:nth-child(1) {
+  width: 34%;
+  padding-right: 45px;
+}
+
+.footer-widget-wrap .footer-widget:nth-child(2),
+.footer-widget-wrap .footer-widget:nth-child(3),
+.footer-widget-wrap .footer-widget:nth-child(4) {
+  width: 22%;
+  padding-left: 0;
+}
+
+.footer-widget-wrap .footer-widget {
+  position: relative;
+  margin: 0 0 30px;
+}
+
+.footer-widget-wrap .footer-widget .footer-logo {
+  margin: 0 0 25px;
+  display: block;
+}
+
+.footer-widget-wrap .footer-widget .comp-desc {
+  color: #fff;
+  margin: 0 0 27px;
+}
+
+.footer-widget-wrap .footer-widget .footer-widget-title {
+  font-size: 22px;
+  color: #fff;
+  margin: 0 0 35px;
+  position: relative;
+}
+
+.footer-widget-wrap .footer-widget .footer-widget-title:after {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  content: "";
+  background-color: #D80758;
+}
+
+.footer-widget-wrap .footer-widget .contact-item {
+  position: relative;
+  padding-left: 32px;
+  margin: 0 0 20px;
+}
+
+.footer-widget-wrap .footer-widget .contact-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-widget-wrap .footer-widget .contact-item i {
+  color: #D80758;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  font-size: 18px;
+}
+
+.footer-widget-wrap .footer-widget .contact-item p,
+.footer-widget-wrap .footer-widget .contact-item a {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.footer-widget-wrap .footer-widget .contact-item p:hover,
+.footer-widget-wrap .footer-widget .contact-item a:hover {
+  color: #D80758;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li {
+  margin: 0 0 15px;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li:last-child {
+  margin-bottom: 0;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li a {
+  color: #fff;
+  position: relative;
+  margin-left: 30px;
+  position: relative;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li a:after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: "";
+  background-color: #D80758;
+  width: 0;
+  height: 1px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li a:hover {
+  color: #D80758;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li a:hover:after {
+  visibility: visible;
+  opacity: 1;
+  width: 100%;
+}
+
+.footer-widget-wrap .footer-widget .footer-menu li a i {
+  font-size: 15px;
+  position: absolute;
+  top: 0;
+  left: -30px;
+}
+
+/*--------------------------------------
+    Responsive CSS For Footer
+-------------------------------------*/
+@media only screen and (min-width: 992px) {
+  .footer-wrap .footer-top {
+    padding-top: 160px;
+  }
+  .footer-wrap .footer-top .footer-widget-wrap .footer-widget .footer-widget-title {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .footer-wrap .footer-top .footer-widget:nth-child(1) {
+    width: 34%;
+    padding-right: 25px;
+  }
+  .footer-wrap .footer-top .footer-widget:nth-child(2), .footer-wrap .footer-top .footer-widget:nth-child(3), .footer-wrap .footer-top .footer-widget:nth-child(4) {
+    width: 22%;
+    padding-left: 25px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .footer-wrap .footer-top .footer-widget {
+    width: 50%;
+    padding-right: 30px;
+    padding-left: 0;
+  }
+  .footer-wrap .footer-top .footer-widget:after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .footer-wrap .footer-top .footer-widget {
+    width: 100%;
+    padding-right: 20px;
+    padding-left: 0;
+  }
+  .footer-wrap .footer-top .footer-widget:after {
+    display: none;
+  }
+  .footer-wrap .footer-top .footer-widget .footer-widget-title {
+    margin-bottom: 20px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
