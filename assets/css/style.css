@@ -2276,10 +2276,9 @@ select {
   text-align: center;
 }
 
-.breadcrumb-wrap .breadcrumb-title h2 {
+.breadcrumb-wrap .breadcrumb-title h1 {
   font-size: 40px;
   font-family: "Barlow Condensed", sans-serif;
-  color: #fff;
   line-height: 1.2;
   font-weight: 700;
   margin: 0 0 12px;
@@ -3027,15 +3026,16 @@ select {
   border-radius: 5px;
 }
 
-.hero-wrap .hero-content h1 {
+ .hero-wrap .hero-content .slider{
   font-size: 54px;
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 25px;
   color: #fff;
+    font-family: "Barlow Condensed", sans-serif;
 }
 
-.hero-wrap .hero-content h1 span {
+.hero-wrap .hero-content .slider span {
   color: #D80758;
 }
 
@@ -3044,6 +3044,7 @@ select {
   font-size: 16px;
   padding-right: 60px;
   color: #fff;
+  
 }
 
 .hero-wrap .hero-content .btn.style1 {
@@ -3444,12 +3445,14 @@ select {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-.process-card .process-info h4 {
+.process-card .process-info h3 {
   line-height: 1;
-  font-size: 22px;
-  margin: 0 0 13px;
+  font-size: 25px;
   color: #fff;
-  margin-top: 15px;
+  font-weight: 600;
+  line-height: 1.4;
+  font-family: "Barlow Condensed", sans-serif;
+
 }
 
 .process-card .process-info p {
@@ -3680,7 +3683,7 @@ select {
   display: inline-block;
 }
 
-.feature-list li h5 {
+.feature-list li h3 {
   font-size: 22px;
   margin-bottom: 8px;
   -webkit-transition: 0.3s;
@@ -4573,7 +4576,7 @@ select {
 }
 
 .why-choose-wrap.style3 .wh-img-wrap .wh-img-5 {
-  height: 820px;
+  height: 600px;
   border-radius: 5px;
 }
 
@@ -4946,12 +4949,14 @@ select {
   margin-left: 20px;
 }
 
-.counter-card.style1 .counter-info h2 {
+.counter-card.style1 .counter-info .number_2 {
   color: #fff;
   font-size: 55px;
   line-height: 1;
   font-weight: 700;
   margin: 0 0 5px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
 }
 
 .counter-card.style1 .counter-info p {
@@ -5005,7 +5010,7 @@ select {
   transition: 0.4s;
 }
 
-.counter-card.style2 .counter-info h2 {
+.counter-card.style2 .counter-info .odometer {
   color: #10012A;
   font-size: 55px;
   line-height: 1;
@@ -5015,12 +5020,23 @@ select {
   transition: 0.4s;
 }
 
-.counter-card.style2 .counter-info h2 .target {
+.counter-card.style2 .counter-info .odometer .target {
   position: relative;
   top: 3px;
   margin-left: 5px;
 }
-
+.counter-card.style2 .counter-info .number{
+font-weight: 600;
+line-height: 1.4;
+font-family: "Barlow Condensed", sans-serif;
+color: #10012A !important;
+font-size: 55px;
+line-height: 1;
+font-weight: 700;
+margin: 0 0 5px;
+-webkit-transition: 0.4s;
+transition: 0.4s;
+}
 .counter-card.style2 .counter-info p {
   color: #555555;
   line-height: 1;
@@ -5266,11 +5282,17 @@ select {
   line-height: 0.8;
 }
 
-.testimonial-item.style1 .client-info h5 {
-  line-height: 1.1;
+.testimonial-item.style1 .client-info p {
+
   margin: 0 0 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Barlow Condensed", sans-serif;
+  color: #10012A;
+  font-size: 20px;
+}
 }
 
 .testimonial-item.style1 .client-info span {
@@ -5395,11 +5417,16 @@ select {
   line-height: 0.8;
 }
 
-.testimonial-item.style3 .client-info h5 {
+.testimonial-item.style3 .client-info p {
   line-height: 1.1;
   margin: 0 0 10px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  font-weight: 600;
+    line-height: 1.1f;
+    font-family: "Barlow Condensed", sans-serif;
+    color: #10012A;
+    font-size: 20px;
 }
 
 .testimonial-item.style3 .client-info span {

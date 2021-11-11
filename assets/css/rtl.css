@@ -525,9 +525,9 @@ select {
   left: auto;
 }
 
-.about-wrap.style3 .counter-box .counter-card:last-child {
+/* .about-wrap.style3 .counter-box .counter-card:last-child {
   margin-left: 0;
-}
+} */
 
 .about-wrap.style3 .counter-box .counter-card:first-child {
   margin-left: 20px;
@@ -611,7 +611,7 @@ select {
 .why-choose-wrap.style2 .wh-content .feature-list li p,
 .why-choose-wrap.style3 .wh-content .feature-list li p {
   padding-right: 0;
-  padding-left: 30px;
+  padding-left: 0;
 }
 
 .get-in-touch-wrap.style1 .container::before {
