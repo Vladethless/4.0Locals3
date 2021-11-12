@@ -883,8 +883,8 @@ select {
   font-family: "Barlow Condensed", sans-serif;
 }
 
-.section-title h2,
-.content-title h2 {
+.section-title h1,
+.content-title h1 {
   font-size: 40px;
   line-height: 1.2;
   font-weight: 700;
@@ -5923,7 +5923,7 @@ transition: 0.4s;
   border-radius: 5px;
 }
 
-.newsleter-wrap.style4 .content-title h2 {
+.newsleter-wrap.style4 .content-title h1 {
   color: #fff;
 }
 
