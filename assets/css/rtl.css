@@ -910,7 +910,7 @@ select {
   }
   .main-menu li > span.menu-expand {
     right: auto;
-    left: 0;
+    left: 60px;
   }
   .main-menu li ul.sub-menu {
     padding-left: 0;

@@ -121,7 +121,7 @@ body {
 p {
   font-size: 16px;
   line-height: 1.8;
-  color: #555555;
+  color: #acaaaa;
 }
 
 select {
@@ -2111,7 +2111,7 @@ select {
   .main-menu-wrap #menu ul li.has-children .sub-menu li {
     margin: 0;
     display: block;
-    text-align: left;
+    text-align: righth1;
   }
   .main-menu-wrap #menu ul li.has-children .sub-menu li a {
     font-size: 15px;
@@ -2250,13 +2250,12 @@ select {
 }
 
 .br-2 {
-  background-image: url(../img/breadcrumb/br-2.jpg);
+  /* background-image: url(../img/breadcrumb/br-2.jpg); */
 }
 
 .br-3 {
-  background-image: url(../img/breadcrumb/br-3.jpg);
+background-color: #392D4E;
 }
-
 .br-4 {
   background-image: url(../img/breadcrumb/br-4.jpg);
 }
@@ -2264,9 +2263,9 @@ select {
 .breadcrumb-wrap {
   position: relative;
   height: 100%;
-  padding: 100px 0;
+  padding: 50px 0;
   overflow: hidden;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 
 .breadcrumb-wrap .breadcrumb-title {
@@ -2282,6 +2281,7 @@ select {
   line-height: 1.2;
   font-weight: 700;
   margin: 0 0 12px;
+  color: white;
 }
 
 .breadcrumb-wrap .breadcrumb-title .breadcrumb-menu li {
@@ -3002,7 +3002,9 @@ select {
 }
 
 .hero-bg-2 {
-  background-image: url(../img/hero/hero-bg-2.jpg);
+  background-image: url(../img/under_post.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 .hero-wrap {
@@ -3384,19 +3386,19 @@ select {
          Process Section CSS
 -------------------------------*/
 .process-bg-1 {
-  background-image: url(../img/process/process-bg-1.jpg);
+  background-image: url(../img/roof_1.jpg);
 }
 
 .process-bg-2 {
-  background-image: url(../img/process/process-bg-2.jpg);
+  background-image: url(../img/roof_2.jpg);
 }
 
 .process-bg-3 {
-  background-image: url(../img/process/process-bg-3.jpg);
+  background-image: url(../img/roof_1.jpg);
 }
 
 .process-bg-4 {
-  background-image: url(../img/process/process-bg-4.jpg);
+  background-image: url(../img/roof_2.jpg);
 }
 
 .process-card {
@@ -3480,16 +3482,19 @@ select {
          About Section CSS
 -------------------------------*/
 .about-bg-1 {
-  background-image: url(../img/about/about-bg.png);
+  background-image: url(../img/about-bg.jpg);
 }
 
 .about-img-1 {
-  background-image: url(../img/about/about-img-1.jpg);
+  background-image: url(../img/about_1.jpg);
 }
 
-.about-img-2 {
-  background-image: url(../img/about/about-img-2.jpg);
-}
+/* .about-img-2 {
+  background-image: url(../img/about_1.jpg);
+} */
+/* .about-img-2 {
+  background-image: url(../img/about_1.jpg);
+} */
 
 .about-img-3 {
   background-image: url(../img/about/about-img-3.jpg);
@@ -3500,7 +3505,7 @@ select {
 }
 
 .about-img-5 {
-  background-image: url(../img/about/about-img-5.jpg);
+  background-image: url(../img/index_5.jpg);
 }
 
 .about-wrap {
@@ -4469,7 +4474,7 @@ select {
 }
 
 .wh-img-5 {
-  background-image: url(../img/why-choose-us/wh-img-5.jpg);
+  background-image: url(../img/index_6.jpg);
 }
 
 .why-choose-wrap {
@@ -4902,7 +4907,7 @@ select {
          Counter Section CSS
 -------------------------------*/
 .counter-bg-1 {
-  background-image: url(../img/counter-bg.png);
+  background-image: url(../img/about_2.jpg);
 }
 
 .counter-wrap {
@@ -7706,7 +7711,7 @@ article h4 {
         Footer CSS 
 -----------------------------------*/
 .footer-bg-1 {
-  background-image: url(../img/footer/footer-bg-1.jpg);
+  background-image: url(../img/under_post_2.jpg);
 }
 
 .footer-wrap .footer-bottom {
