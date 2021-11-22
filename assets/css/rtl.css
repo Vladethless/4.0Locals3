@@ -214,7 +214,7 @@ select {
 }
 
 .main-menu-wrap #menu ul li.has-children .sub-menu li {
-  text-align: right;
+  text-align: center;
 }
 
 .navbar-language .dropdown-toggle {
@@ -910,7 +910,7 @@ select {
   }
   .main-menu li > span.menu-expand {
     right: auto;
-    left: 60px;
+    left: 70px;
   }
   .main-menu li ul.sub-menu {
     padding-left: 0;
