@@ -3793,6 +3793,8 @@ background-color: #392D4E;
   -webkit-transition: 0.4s;
   transition: 0.4s;
   direction: ltr;
+  color: #000;
+  font-weight: 600;
 }
 
 .service-card:hover .service-img img {
@@ -5750,6 +5752,10 @@ transition: 0.4s;
   border-radius: 0 0 5px 5px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+.service-title a{
+  color: #D80758;
+
 }
 .blue a{
   color: #10012A;
