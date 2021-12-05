@@ -3740,7 +3740,7 @@ background-color: #392D4E;
 .service-card .service-icon i {
   font-size: 30px;
   line-height: 0.8;
-  color: #fff;
+  color: #10012A;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -3848,7 +3848,7 @@ background-color: #392D4E;
 }
 
 .service-card.style2:hover .service-icon {
-  background-color: #fff;
+  background-color: #10012A;
 }
 
 .service-card.style2:hover .service-icon i {
@@ -3861,19 +3861,19 @@ background-color: #392D4E;
 
 .service-card.style2:hover .service-info .service-blur-icon i {
   opacity: 0.15;
-  color: #fff;
+  color: #10012A;
 }
 
 .service-card.style2:hover .service-info h3 a {
-  color: #fff;
+  color: #10012A;
 }
 
 .service-card.style2:hover .service-info p {
-  color: #fff;
+  color: #10012A;
 }
 
 .service-card.style2:hover .service-info .btn {
-  background-color: #fff;
+  background-color: #10012A;
   color: #10012A;
 }
 
@@ -3921,7 +3921,7 @@ background-color: #392D4E;
 }
 
 .service-card.style3:hover .service-icon {
-  background-color: #fff;
+  background-color: #10012A;
 }
 
 .service-card.style3:hover .service-icon i {
@@ -4940,7 +4940,7 @@ background-color: #392D4E;
   top: 0px;
   left: 0;
   content: "";
-  background: #d80758;
+  background: #D80758;
   width: 28px;
   height: 75px;
   border-radius: 3px;
@@ -4999,7 +4999,7 @@ background-color: #392D4E;
   top: 0;
   right: 0;
   content: "";
-  background-color: #D80758;
+  background-color: #dddbdc;
   width: 0;
   height: 0;
   visibility: hidden;
@@ -5014,7 +5014,7 @@ background-color: #392D4E;
 }
 
 .counter-card.style2 .counter-icon i {
-  color: #D80758;
+  color: #dddbdc;
   font-size: 50px;
   line-height: 0.8;
   display: inline-block;
@@ -5065,17 +5065,7 @@ transition: 0.4s;
   opacity: 1;
 }
 
-.counter-card.style2:hover .counter-icon i {
-  color: #fff;
-}
 
-.counter-card.style2:hover .counter-info h2 {
-  color: #fff;
-}
-
-.counter-card.style2:hover .counter-info p {
-  color: #fff;
-}
 
 /*-------------------------------
          Promo CSS
@@ -6184,7 +6174,18 @@ article p {
 article p:last-child {
   margin-bottom: 0;
 }
+.service-icon img{
+  width: 53px !important;
+  margin-right: 5px;
 
+}
+.counter-icon img{
+  width: 60px;
+} 
+.cat-icon img {
+  width: 60px;
+  margin: auto;
+}
 article .post-subtitle {
   margin: 0 0 15px;
   font-size: 26px;
